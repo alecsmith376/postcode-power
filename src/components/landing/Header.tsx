@@ -8,7 +8,7 @@ export function Header() {
           <div className="w-8 h-8 rounded-md bg-navy flex items-center justify-center">
             <div className="w-3 h-3 rounded-sm bg-emerald" />
           </div>
-          <span className="font-bold text-lg tracking-tight text-navy">PostcodePro</span>
+          <span className="font-bold text-lg tracking-tight text-navy">PostcodeIQ</span>
         </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
           <a href="#how" className="hover:text-navy transition-colors">How it works</a>
