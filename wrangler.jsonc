@@ -4,4 +4,11 @@
   "compatibility_date": "2025-09-24",
   "compatibility_flags": ["nodejs_compat"],
   "main": "@tanstack/react-start/server-entry",
+  // Disable the default workers.dev subdomain in production
+  "workers_dev": false,
+  // Custom domain routes — requires postcodeiq.co.uk to be on Cloudflare DNS
+  "routes": [
+    { "pattern": "postcodeiq.co.uk/*", "custom_domain": true },
+    { "pattern": "www.postcodeiq.co.uk/*", "custom_domain": true }
+  ]
 }
