@@ -26,13 +26,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "PostcodePro — Find UK postcodes worth investing in" },
+      { title: "PostcodeIQ — Find UK postcodes worth investing in" },
       {
         name: "description",
         content:
           "AI-powered buy-to-let intelligence for UK property investors. Built on 5 million Land Registry transactions. Join the waitlist.",
       },
-      { property: "og:title", content: "PostcodePro — UK buy-to-let postcode intelligence" },
+      { property: "og:title", content: "PostcodeIQ — UK buy-to-let postcode intelligence" },
       {
         property: "og:description",
         content: "Find the UK postcodes worth investing in — before everyone else does.",
@@ -92,7 +92,7 @@ function Index() {
                 <div className="w-2.5 h-2.5 rounded-full bg-red-400/60" />
                 <div className="w-2.5 h-2.5 rounded-full bg-yellow-400/60" />
                 <div className="w-2.5 h-2.5 rounded-full bg-green-400/60" />
-                <div className="ml-3 text-xs text-muted-foreground font-mono">postcodepro.app/hotspots</div>
+                  <div className="ml-3 text-xs text-muted-foreground font-mono">postcodeiq.co.uk/hotspots</div>
               </div>
               <div className="grid grid-cols-5 gap-0">
                 <div className="col-span-3 p-4 border-r border-border bg-gradient-to-br from-white to-muted/30">
@@ -231,7 +231,7 @@ function Index() {
           <div>
             <div className="text-sm font-semibold text-emerald uppercase tracking-wider">Sample report</div>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold tracking-tight text-navy">
-              See what a PostcodePro report looks like
+              See what a PostcodeIQ report looks like
             </h2>
             <ul className="mt-8 space-y-4">
               {[
@@ -436,11 +436,11 @@ function Index() {
             <div className="w-6 h-6 rounded bg-navy flex items-center justify-center">
               <div className="w-2 h-2 rounded-sm bg-emerald" />
             </div>
-            <span className="font-bold text-navy">PostcodePro</span>
+            <span className="font-bold text-navy">PostcodeIQ</span>
             <span className="text-muted-foreground ml-2">© 2026</span>
           </div>
           <div className="flex items-center gap-6 text-muted-foreground">
-            <a href="mailto:hello@postcodepro.app" className="hover:text-navy">hello@postcodepro.app</a>
+            <a href="mailto:hello@postcodeiq.co.uk" className="hover:text-navy">hello@postcodeiq.co.uk</a>
             <a href="#" className="hover:text-navy">Privacy</a>
             <a href="#" className="hover:text-navy">Terms</a>
           </div>
